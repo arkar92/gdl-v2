@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Home Page | Global Direct Link Company</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
@@ -18,29 +18,50 @@ h1,h2,h3,h4,h5,h6 {
 <!-- Navbar (sit on top) -->
 <div class="">
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">
-        <img src="img/gdl-long-logo.png" style="height: 100px;" />
+    <a href="index.html" class="w3-bar-item w3-button">
+        <img src="img/gdl-long-logo.png" class="w3-hide-small" style="max-width: 300px;" />
+        <img src="img/gdl-long-logo.png" class="w3-hide-large w3-hide-medium" style="max-width: 200px;" />
+        
     </a>
     <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-large w3-hide-small w3-padding-32" style="font-weight: bold;">
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue">Home</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue">Media Rep</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue">Trading</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue">Manufacturing</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue">Mining</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue">Auto Mobile</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue">Real Estate</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue">Profile</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue">Contact Us</a>
+    <div class=" w3-large w3-hide-small w3-padding-16" style="font-weight: bold;">
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Home</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Media Rep</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Trading</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Manufacturing</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Mining</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Auto Mobile</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Real Estate</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Profile</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Contact Us</a>
     </div>
+    
+    <div class="w3-padding-16">
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-large w3-hide-large w3-hide-medium" onclick="mobileNavBtn()">&#9776;</a>
+    </div>
+    
+      
   </div>
 </div>
 
+<!-- Mobile Nav -->
+<div id="mobile-nav-link" class="w3-bar-block w3-light-grey w3-hide w3-hide-large w3-hide-medium">
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Home</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Media Rep</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Trading</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Manufacturing</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Mining</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Auto Mobile</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Real Estate</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Profile</a>
+        <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Contact Us</a>
+</div>
+
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide w3-margin-top w3-margin-bottom" style="max-width:1600px;min-width:500px;" id="home">
-    <center>
+<header class="w3-display-container w3-center w3-wide w3-margin-top w3-margin-bottom" style="max-width:1600px;min-width:500px;" id="home">
+    
         <img class="w3-image w3-center w3-card-4" src="img/gdl-home-banner-new1.jpg" alt="GDL Welcome Banner"> <!--  width="1600" height="800" -->
-    </center>
+    
 <!--
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
     <h1 class="w3-xxlarge">Le Catering</h1>
@@ -331,5 +352,17 @@ h1,h2,h3,h4,h5,h6 {
 <!--  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
 </footer>
 
+<!-- Mobile Nav Button -->
+<script>
+function mobileNavBtn() {
+    var x = document.getElementById("mobile-nav-link");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>    
+    
 </body>
 </html>
