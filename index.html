@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6 {
         
     </a>
     <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class=" w3-large w3-hide-small w3-padding-16" style="font-weight: bold;">
+    <div class=" w3-large w3-hide-small w3-hide-medium w3-padding-16" style="font-weight: bold;">
         <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Home</a>
         <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Media Rep</a>
         <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Trading</a>
@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6 {
     </div>
     
     <div class="w3-padding-16">
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-large w3-hide-large w3-hide-medium" onclick="mobileNavBtn()">&#9776;</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-large w3-hide-large" onclick="mobileNavBtn()">&#9776;</a>
     </div>
     
       
@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6 {
 </div>
 
 <!-- Mobile Nav -->
-<div id="mobile-nav-link" class="w3-bar-block w3-light-grey w3-hide w3-hide-large w3-hide-medium" style="position: absolute;left:0px;top: 90px; z-index: 99; width: 100%;">
+<div id="mobile-nav-link" class="w3-bar-block w3-light-grey w3-hide w3-hide-large" style="position: absolute;left:0px;top: 90px; z-index: 99; width: 100%;">
         <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Home</a>
         <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Media Rep</a>
         <a href="#" class="w3-bar-item w3-button gdl-hover-blue">Trading</a>
@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6 {
 <!-- Header -->
 <header class="w3-display-container w3-center w3-wide w3-margin-top w3-margin-bottom" style="max-width:1600px;min-width:500px;" id="home">
     
-        <img class="w3-image w3-center w3-card-4" src="img/gdl-home-banner-new1.jpg" alt="GDL Welcome Banner"> <!--  width="1600" height="800" -->
+        <img class="w3-image w3-card-4" src="img/gdl-home-banner-new1.jpg" alt="GDL Welcome Banner" > <!--  width="1600" height="800" -->
     
 <!--
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
@@ -104,160 +104,182 @@ h1,h2,h3,h4,h5,h6 {
         
         <hr />
         
-        
-        <h3 class="w3-margin-bottom w3-padding">
-            Our Services to Customers
-        </h3>
-        
-        <div class="w3-row">
-            <div class="w3-quarter w3-margin w3-card-4">
-                <a href="#">
-                    <img src="img/media-rep-card-v3.jpg" class="w3-image"/>    
-                </a>
-                
-                <div class="w3-container w3-white w3-large" style="min-height: 170px;">
-                    <p>
-                        Advertising in Traditional & Non- Traditional Methods,
-                        Planning Media Communication,
-                        Media Management and Publishing. 
-                    </p>                    
+        <!-- Service Section -->
+        <div class="w3-padding-24">
+            <h3 class="">
+                Our Services to Customers
+            </h3>
+            
+            <div class="w3-row-padding">
+            
+                <div class="w3-third w3-margin-top">
+                    <div class="w3-card-4">
+                        <a href="#">
+                            <img src="img/media-rep-card-v3.jpg" class="w3-image w3-opacity w3-hover-opacity-off" style="transition:all 0.3s ease;"/>    
+                        </a>
+                        <div class="w3-container w3-white w3-large" style="min-height: 170px;">
+                            <p>
+                                Advertising in Traditional & Non- Traditional Methods,
+                                Planning Media Communication,
+                                Media Management and Publishing. 
+                            </p>                    
+                        </div>
+                    </div>                
+                </div>
+
+                <div class="w3-third w3-margin-top">
+                    <div class="w3-card-4">
+                        <a href="#">
+                            <img src="img/trading-card-v3.jpg" class="w3-image w3-opacity w3-hover-opacity-off" style="transition:all 0.3s ease;"/>    
+                        </a>
+                        <div class="w3-container w3-white w3-large" style="min-height: 170px;">
+                            <p>
+                                Import & exports of natural resources,
+                                vehicles, building & printing material. 
+                            </p>                    
+                        </div>
+                    </div>                
+                </div>
+
+                <div class="w3-third w3-margin-top">
+                    <div class="w3-card-4">
+                        <a href="#">
+                            <img src="img/manufacturing-card-v3.jpg" class="w3-image w3-opacity w3-hover-opacity-off" style="transition:all 0.3s ease;"/>    
+                        </a>
+                        <div class="w3-container w3-white w3-large" style="min-height: 170px;">
+                            <p>
+                                Wood processing & Newspaper printing
+                            </p>                    
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="w3-quarter w3-margin w3-card-4">
-                <a href="#">
-                    <img src="img/trading-card-v3.jpg" class="w3-image"/>    
-                </a>
-                
-                <div class="w3-container w3-white w3-large" style="min-height: 170px;">
-                    <p>
-                        Import & exports of natural resources,
-                        vehicles, building & printing material. 
-                    </p>                    
+            <div class="w3-row-padding">
+            
+                <div class="w3-third w3-margin-top">
+                    <div class="w3-card-4">
+                        <a href="#">
+                            <img src="img/mining-card-v3.jpg" class="w3-image w3-opacity w3-hover-opacity-off" style="transition:all 0.3s ease;"/>    
+                        </a>
+                        <div class="w3-container w3-white w3-large" style="min-height: 170px;">
+                            <p>
+                                Gold, Gem & Jewelry Mining <br/>
+                                Gold, Gem & Jewelry Production & Sale 
+                            </p>                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-third w3-margin-top">
+                    <div class="w3-card-4">
+                        <a href="#">
+                            <img src="img/real-estate-card-v3.jpg" class="w3-image w3-opacity w3-hover-opacity-off" style="transition:all 0.3s ease;"/>    
+                        </a>
+                        <div class="w3-container w3-white w3-large" style="min-height: 170px;">
+                            <p>
+                                Drafting Master Plan, Project Plan (PM), Budget Plan and 
+                                Drawing by GDL Company's Team 
+                            </p>                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-third w3-margin-top">
+                    <div class="w3-card-4">
+                        <a href="#">
+                            <img src="img/auto-mobile-card-v3.jpg" class="w3-image w3-opacity w3-hover-opacity-off" style="transition:all 0.3s ease;"/>
+                        </a>
+                        <div class="w3-container w3-white w3-large" style="min-height: 170px;">
+                            <p>
+                                Announce Available Car Stock List on Website <br/>
+                                Buying with E-Mail, Telephone or Fax easily 
+                            </p>                    
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="w3-quarter w3-margin w3-card-4">
-                <a href="#">
-                    <img src="img/manufacturing-card-v3.jpg" class="w3-image"/>    
-                </a>
-                
-                <div class="w3-container w3-white w3-large" style="min-height: 170px;">
-                    <p>
-                        Wood processing & Newspaper printing
-                    </p>                    
-                </div>
-            </div>
         </div>
+        <!-- End Service Section -->
         
-        <div class="w3-row">
-            <div class="w3-quarter w3-margin w3-card-4">
-                <a href="#">
-                    <img src="img/mining-card-v3.jpg" class="w3-image"/>    
-                </a>
-                
-                <div class="w3-container w3-white w3-large" style="min-height: 170px;">
-                    <p>
-                        Gold, Gem & Jewelry Mining <br/>
-                        Gold, Gem & Jewelry Production & Sale 
-                    </p>                    
-                </div>
-            </div>
-            
-            <div class="w3-quarter w3-margin w3-card-4">
-                <a href="#">
-                    <img src="img/real-estate-card-v3.jpg" class="w3-image"/>    
-                </a>
-                
-                <div class="w3-container w3-white w3-large" style="min-height: 170px;">
-                    <p>
-                        Drafting Master Plan, Project Plan (PM), Budget Plan and 
-                        Drawing by GDL Company's Team 
-                    </p>                    
-                </div>
-            </div>
-            
-            <div class="w3-quarter w3-margin w3-card-4">
-                <a href="#">
-                    <img src="img/auto-mobile-card-v3.jpg" class="w3-image"/>    
-                </a>
-                
-                <div class="w3-container w3-white w3-large" style="min-height: 170px;">
-                    <p>
-                        Announce Available Car Stock List on Website <br/>
-                        Buying with E-Mail, Telephone or Fax easily 
-                    </p>                    
-                </div>
-            </div>
-        </div>
         
         <hr/>
         
-        <h3 class="w3-margin-bottom w3-padding ">
-            Our Corporate Business Partners
-        </h3>
-        
-        <div class="w3-row">
-            <div class="w3-quarter w3-margin w3-white w3-card-4">
-                <a href="#">
-                    <center>
-                        <img src="img/partner1.png" class="w3-image"/>    
-                    </center>
-                    
-                </a>
-                
-                <div class="w3-container w3-center w3-white w3-large" style="min-height: 100px;">
-                    <a href="#" class="" style="text-decoration: none;">
-                        Global New Light of Myanmar
-                    </a>             
-                </div>
-            </div>
+        <!-- Partner Section -->
+        <div class="w3-padding-24">
             
-            <div class="w3-quarter w3-margin w3-white w3-card-4">
-                <a href="#">
-                    <center>
-                        <img src="img/partner2.png" class="w3-image"/>    
-                    </center>
-                    
-                </a>
+            <h3 class="">
+                Our Corporate Business Partners
+            </h3>
+
+            <div class="w3-row-padding">
                 
-                <div class="w3-container w3-center w3-white w3-large" style="min-height: 100px;">
-                    <a href="#" class="" style="text-decoration: none;">
-                        News & Periodical Enterprise Ministry of Information
-                    </a>             
+                <div class="w3-quarter">                    
+                    <div class="w3-white w3-card-4 w3-center">
+                        <a href="#">
+                            <img src="img/partner1.png" class="w3-image"/>
+                        </a>
+                        
+                        <div class="w3-container w3-large" style="min-height: 100px;">
+                            <a href="#" class="gdl-hover-blue-text" style="text-decoration: none;">
+                                Global New Light of Myanmar
+                            </a>             
+                        </div>
+                    </div>                    
                 </div>
+                
+                <div class="w3-quarter">                    
+                    <div class="w3-white w3-card-4 w3-center">
+                        <a href="#">
+                            <img src="img/partner2.png" class="w3-image"/>
+                        </a>
+                        
+                        <div class="w3-container w3-large" style="min-height: 100px;">
+                            <a href="#" class="gdl-hover-blue-text" style="text-decoration: none;">
+                                News & Periodical Enterprise Ministry of Information
+                            </a>             
+                        </div>
+                    </div>                    
+                </div>
+                
+                <div class="w3-quarter">                    
+                    <div class="w3-white w3-card-4 w3-center">
+                        <a href="#">
+                            <img src="img/partner3.png" class="w3-image"/>
+                        </a>
+                        
+                        <div class="w3-container w3-large" style="min-height: 100px;">
+                            <a href="#" class="gdl-hover-blue-text" style="text-decoration: none;">
+                                Kyodonews Japan
+                            </a>             
+                        </div>
+                    </div>                    
+                </div>                
+                
+                
+                <div class="w3-quarter">                    
+                    <div class="w3-white w3-card-4 w3-center">
+                        <a href="#">
+                            <img src="img/partner4.png" class="w3-image"/>
+                        </a>
+                        
+                        <div class="w3-container w3-large" style="min-height: 100px;">
+                            <a href="#" class="gdl-hover-blue-text" style="text-decoration: none;">
+                                Tominaga Industry Corporation
+                            </a>             
+                        </div>
+                    </div>                    
+                </div>                
+                
             </div>
+
             
-            <div class="w3-quarter w3-margin w3-white w3-card-4">
-                <a href="#">
-                    <center>
-                        <img src="img/partner3.png" class="w3-image"/>    
-                    </center>
-                    
-                </a>
-                
-                <div class="w3-container w3-center w3-white w3-large" style="min-height: 100px;">
-                    <a href="#" class="" style="text-decoration: none;">
-                        Kyodonews Japan
-                    </a>             
-                </div>
-            </div>
-            
-            <div class="w3-quarter w3-margin w3-white w3-card-4">
-                <a href="#">
-                    <center>
-                        <img src="img/partner4.png" class="w3-image"/>    
-                    </center>
-                    
-                </a>
-                
-                <div class="w3-container w3-center w3-white w3-large" style="min-height: 100px;">
-                    <a href="#" class="" style="text-decoration: none;">
-                        Tominaga Industry Corporation
-                    </a>             
-                </div>
-            </div>
         </div>
+        <!-- End Partner Section -->
+        
+        
+        
         
         
     </div>

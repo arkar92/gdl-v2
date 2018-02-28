@@ -15,3 +15,10 @@
     background-color: #1B6AB4 !important;
     color: white !important;
 }
+
+
+.gdl-hover-blue-text:hover{
+    transition:all 0.3s ease;
+    color:  #1B6AB4 !important;
+    font-weight: bold;
+}
