@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+<title>Media Rep | Global Direct Link Company</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Padauk" rel="stylesheet"> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/gdl.css">
+    
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<style>
+body {font-family: "Quicksand", sans-serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Quicksand";
+    letter-spacing: 5px;
+}
+
+    .mm-font{
+        font-family: 'Padauk', sans-serif;
+    }
+
+    
+    /* Second image (Portfolio) */
+    /* Create a Parallax Effect */
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .bgimg-2 {
+        background-image: url("/img/Media-Rep-Parallex.jpg");
+        min-height: 600px;
+    }
+    
+    
+    
+</style>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="index.html" class="w3-bar-item w3-button">
+        <img src="img/gdl-long-logo.png" class="w3-hide-small" style="max-width: 300px;" />
+        <img src="img/gdl-long-logo.png" class="w3-hide-large w3-hide-medium" style="max-width: 200px;" />
+        
+    </a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class=" w3-large w3-hide-small w3-hide-medium w3-padding-16" style="font-weight: bold;">
+        <a href="index.html" class="w3-bar-item w3-button gdl-hover-blue">Home</a>
+        <a href="media-rep.html" class="w3-bar-item w3-button gdl-hover-blue gdl-blue">Media Rep</a>
+        <a href="trading.html" class="w3-bar-item w3-button gdl-hover-blue">Trading</a>
+        <a href="manufacturing.html" class="w3-bar-item w3-button gdl-hover-blue">Manufacturing</a>
+        <a href="mining.html" class="w3-bar-item w3-button gdl-hover-blue">Mining</a>
+        <a href="auto-mobile.html" class="w3-bar-item w3-button gdl-hover-blue">Auto Mobile</a>
+        <a href="real-estate.html" class="w3-bar-item w3-button gdl-hover-blue">Real Estate</a>
+        <a href="profile.html" class="w3-bar-item w3-button gdl-hover-blue">Profile</a>
+        <a href="contact.html" class="w3-bar-item w3-button gdl-hover-blue">Contact Us</a>
+    </div>
+    
+    <div class="w3-padding-16">
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-large w3-hide-large" onclick="mobileNavBtn()">&#9776;</a>
+    </div>
+    
+      
+  </div>
+</div>
+
+<!-- Mobile Nav -->
+<div id="mobile-nav-link" class="w3-bar-block w3-light-grey w3-hide w3-hide-large" style="position: absolute;left:0px;top: 90px; z-index: 99; width: 100%;">
+        <a href="index.html" class="w3-bar-item w3-button gdl-hover-blue">Home</a>
+        <a href="media-rep.html" class="w3-bar-item w3-button gdl-hover-blue gdl-blue">Media Rep</a>
+        <a href="trading.html" class="w3-bar-item w3-button gdl-hover-blue">Trading</a>
+        <a href="manufacturing.html" class="w3-bar-item w3-button gdl-hover-blue">Manufacturing</a>
+        <a href="mining.html" class="w3-bar-item w3-button gdl-hover-blue">Mining</a>
+        <a href="auto-mobile.html" class="w3-bar-item w3-button gdl-hover-blue">Auto Mobile</a>
+        <a href="real-estate.html" class="w3-bar-item w3-button gdl-hover-blue">Real Estate</a>
+        <a href="profile.html" class="w3-bar-item w3-button gdl-hover-blue">Profile</a>
+        <a href="contact.html" class="w3-bar-item w3-button gdl-hover-blue">Contact Us</a>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-center w3-wide w3-margin-top w3-margin-bottom" style="max-width:1600px;min-width:500px;" id="home">
+    
+        <img class="w3-image w3-card-4" src="img/gdl-media-rep-banner.jpg" alt="GDL Welcome Banner" > <!--  width="1600" height="800" -->
+    
+<!--
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+-->
+</header>
+    
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container">
+  <div class="w3-display-middle w3-card-4" style="width: 80%;">
+     
+          <div class="w3-bar w3-black w3-large">
+            <button class="w3-bar-item w3-button tablink gdl-blue" onclick="openCity(event,'London')">Appointment</button>
+            <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">Ads Job Order</button>
+<!--            <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Tokyo</button>-->
+          </div>
+
+        <div id="London" class="w3-container city w3-white">
+          
+            <div class="w3-row">
+                <div class="w3-col s12 m6 l6 w3-padding">
+                    <h4>
+                        Make an appointment with us for a day of ideas & discussion. 
+                    </h4>
+                    <p class="w3-large">
+                        We do not give you hype. Instead, we show you the real thing we can offer in your budget. Professional and open idea is what we trade of your coffee - sometimes we are happy with water. 
+                    </p>
+                    <a href="#" class="w3-button gdl-blue">
+                        Appointment
+                    </a>
+                     
+                </div>                
+                <div class="w3-col s12 m6 l6 w3-padding w3-hide-small">
+                    <a href="#">
+                        <img src="img/make-appointment.jpg" class="w3-right" style="max-height: 300px;" />
+                    </a>                    
+                </div>
+            </div>
+          
+        </div>
+
+        <div id="Paris" class="w3-container city w3-white" style="display:none">
+          
+            <div class="w3-row">
+                <div class="w3-col s12 m6 l6 w3-padding">
+                    <h4>
+                        Make A Job Order Now!
+                    </h4>
+                    <p class="w3-large">
+                        If you want to advertise you business (or) services with us, 
+                        please make a job order to us! 
+                    </p>
+                    <a href="#" class="w3-button gdl-blue">
+                        Ads Job Order
+                    </a>
+                     
+                </div>                
+                <div class="w3-col s12 m6 l6 w3-padding w3-hide-small">
+                    <a href="#">
+                        <img src="img/media-rep-job-order.jpg" class="w3-right" style="max-height: 300px;" />
+                    </a>                    
+                </div>
+            </div>
+            
+        </div>
+
+<!--
+        <div id="Tokyo" class="w3-container city" style="display:none">
+          <h2>Tokyo</h2>
+          <p>Tokyo is the capital of Japan.</p>
+        </div>
+-->
+
+        <script>
+//        function openCity(cityName) {
+//            var i;
+//            var x = document.getElementsByClassName("city");
+//            for (i = 0; i < x.length; i++) {
+//               x[i].style.display = "none";  
+//            }
+//            document.getElementById(cityName).style.display = "block";  
+//        }
+            
+            function openCity(evt, cityName) {
+              var i, x, tablinks;
+              x = document.getElementsByClassName("city");
+              for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablink");
+              for (i = 0; i < x.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" gdl-blue", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " gdl-blue";
+            }
+        </script>
+      
+  </div>
+</div>    
+
+    
+
+<div class="w3-container w3-padding-32 gdl-blue" >
+    <div class="w3-content" style="max-width:1100px">
+<!--
+        <a href="#" style="text-decoration: none;">
+            <h3>
+                Company Profile
+            </h3>
+        </a>
+-->
+        <div class="w3-row w3-large">
+            
+            <div class="w3-col s12 m6 l6 w3-padding">
+                <p class="w3-large">
+                    We are Global Direct Link Media Agency  which jointly with Ministry of Information as servicing for publishing of the Global New Light of Myanmar and printing service for the Mirror Newspaper.
+                </p>
+                <p>
+                    I would like to take this opportunity to introduce our services and newspaper, the Global New Light of Myanmar (GNLM), Myanmar's longest & most-widely circulated English Daily newspaper.
+                </p>
+                <p>
+                    Please kindly have a look to the enclosed is media kit and Rate Card of Advertisement and we are very pleased to offer you with a competitive price as for your media plan.
+                </p>
+            </div>
+            <div class="w3-col s12 m6 l6 w3-padding">
+                <p class="w3-large">
+                    It would be great and highly appreciate, if your team at Yangon could give a 10-15 mins meeting for further discussion to cooperate with our best service & support. I am hoping that you will reply positively for our proposal.
+                </p>
+                <p>
+                    For more info, please kindly back to us without hesitation via email or phone. We look forward your kind reply with your convenience time and date for meeting to get closer cooperation in future.
+                </p>
+            </div>
+        </div>
+        
+        <hr/>
+        
+        <h3>
+            Services
+        </h3>
+        
+        <div class="w3-row">
+            
+            <div class="w3-col s12 m12 l4 w3-margin-top w3-padding">                
+                <div class="w3-white w3-card-4 w3-center w3-padding">
+                    
+                    <img class="" src="img/media-service-1.png"  />
+                    <h4 class="w3-center">
+                        Media Buying
+                    </h4>
+                    <p class="w3-large">
+                        Negotiate and Purchase targeted audience time and advertising space to convey a marketing message 
+                    </p>
+                </div>                
+            </div>
+            
+            <div class="w3-col s12 m12 l4 w3-margin-top w3-padding">                
+                <div class="w3-white w3-card-4 w3-center w3-padding">
+                    
+                    <img class="" src="img/media-service-2.png"  />
+                    <h4 class="w3-center">
+                        Creating Video Content
+                    </h4>
+                    <p class="w3-large">
+                        Video Content help deliver marketing messages more effectively in a shorter amount of time while also striking an emotional chord through visual and auditory storytelling elements not present in text 
+                    </p>
+                </div>                
+            </div>
+            
+            <div class="w3-col s12 m12 l4 w3-margin-top w3-padding">                
+                <div class="w3-white w3-card-4 w3-center w3-padding">
+                    
+                    <img class="" src="img/media-service-3.png"  />
+                    <h4 class="w3-center">
+                        Events Planning
+                    </h4>
+                    <p class="w3-large">
+                        Event planning is the process of managing a project such as a meeting, convention, trade show,  ceremony, (link is external)team building activity, party, or convention. Event planning includes budgeting, establishing timelines, selecting and reserving the event sites, acquiring permits, planning food, coordinating transportation, developing a theme, arranging for activities, selecting speakers and keynotes, arranging for equipment and facilities, managing risk, and developing contingency plans. 
+                    </p>
+                </div>                
+            </div>
+            
+            <div class="w3-col s12 m12 l4 w3-margin-top w3-padding">                
+                <div class="w3-white w3-card-4 w3-center w3-padding">
+                    
+                    <img class="" src="img/media-service-4.png"  />
+                    <h4 class="w3-center">
+                        Product Placement Marketing
+                    </h4>
+                    <p class="w3-large">
+                        Developing and executing a customized media plan that can include: Radio, TV, Digital, Mobile Geo-Fencing, Print, Outdoor, Direct Marketing, Alternative Media 
+                    </p>
+                </div>                
+            </div>
+            
+            <div class="w3-col s12 m12 l4 w3-margin-top w3-padding">                
+                <div class="w3-white w3-card-4 w3-center w3-padding">
+                    
+                    <img class="" src="img/media-service-5.png"  />
+                    <h4 class="w3-center">
+                        One-Stop Printing Service
+                    </h4>
+                    <p class="w3-large">
+                        Newsletter, Newspaper, Magazine,  Journal, Book, Digital Printing, Flyer,Paper Bags,Quality Offset Printing 
+                    </p>
+                </div>                
+            </div>
+            
+            <div class="w3-col s12 m12 l4 w3-margin-top w3-padding">                
+                <div class="w3-white w3-card-4 w3-center w3-padding">
+                    
+                    <img class="" src="img/media-service-6.png"  />
+                    <h4 class="w3-center">
+                        Social Media Managment
+                    </h4>
+                    <p class="w3-large">
+                        Deliberate planning and goal setting.
+                        Development of brand awareness and online reputation.
+                        Content management.
+                        SEO and generating of inbound traffic.
+                        Cultivation of leads and sales.
+                    </p>
+                </div>                
+            </div>
+            
+            <div class="w3-col s12 m12 l4 w3-margin-top w3-padding">                
+                <div class="w3-white w3-card-4 w3-center w3-padding">
+                    
+                    <img class="" src="img/media-service-7.png"  />                    
+                    <h4 class="w3-center">
+                        CSR Activity
+                    </h4>
+                    <p class="w3-large">
+                        Better brand recognition.
+                        Positive business reputation. <br/>
+                        Increased sales and customer loyalty. <br/>
+                        Operational costs savings. <br/>
+                        Better financial performance. <br/>
+                        Greater ability to attract talent and Retain staff. <br/>
+                        Organisational growth. <br/>
+                        Easier access to capital. <br/>
+                    </p>
+                </div>                
+            </div>
+            
+            <div class="w3-col s12 m12 l4 w3-margin-top w3-padding">                
+                <div class="w3-white w3-card-4 w3-center w3-padding">
+                    
+                    <img class="" src="img/media-service-8.png"  />
+                    <h4 class="w3-center">
+                        Media Communication & Publication
+                    </h4>
+                    <p class="w3-large">
+                        We always follow these key elements - Planning, Organizing, Coordinating and Monitoring to deliver massage of your brand through single Medium or Mass Media. Let us help you to take maximum benefits of your businesses. 
+                    </p>
+                </div>                
+            </div>
+            
+            <div class="w3-col s12 m12 l4 w3-margin-top w3-padding">                
+                <div class="w3-white w3-card-4 w3-center w3-padding">
+                    
+                    <img class="" src="img/media-service-9.png"  />
+                    <h4 class="w3-center">
+                        Copywriting
+                    </h4>
+                    <p class="w3-large">
+                        Search Engine Optimization (SEO) Copywriting <br/>
+                        Sales Copywriting <br/>
+                        Technical Copywriting <br/>
+                        Content Copywriting <br/>
+                        Creative Copywriting <br/>
+                    </p>
+                </div>                
+            </div>
+            
+            
+<!--
+            <p class="w3-center">
+                <button onclick="myShow.previous()">Previous</button>
+                <button onclick="myShow.next()">Next</button>
+            </p>
+-->
+            
+        </div>
+        
+        <hr />
+        
+        <h3>
+            Valuable Clients & Advertiser
+        </h3>
+        
+        <div class="w3-row-padding">
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client1.png" class="w3-image w3-card-4" />
+            </div>
+            
+<!--
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client2.png" class="w3-image"/>
+            </div>
+-->
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client3.png" class="w3-image w3-card-4"/>
+            </div>
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client4.png" class="w3-image w3-card-4"/>
+            </div>
+            
+<!--
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client5.png" class="w3-image"/>
+            </div>
+-->
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client6.png" class="w3-image w3-card-4"/>
+            </div>
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client7.png" class="w3-image w3-card-4"/>
+            </div>
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client8.png" class="w3-image w3-card-4"/>
+            </div>
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client9.png" class="w3-image w3-card-4"/>
+            </div>
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client10.png" class="w3-image w3-card-4"/>
+            </div>
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client11.png" class="w3-image w3-card-4"/>
+            </div>
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client12.png" class="w3-image w3-card-4"/>
+            </div>
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client13.png" class="w3-image w3-card-4"/>
+            </div>
+            
+            <div class="w3-col s12 m4 l2 w3-margin-top">
+                <img src="img/client14.png" class="w3-image w3-card-4"/>
+            </div>
+            
+        </div>
+
+        
+        
+        
+    </div>
+</div>    
+    
+    
+
+
+<!-- Page content -->
+<!--
+<div class="w3-content" style="max-width:1100px">
+    
+
+    
+
+  
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Catering</h1><br>
+      <h5 class="w3-center">Tradition since 1889</h5>
+      <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>Bread Basket</h4>
+      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+      <h4>Honey Almond Granola with Fruits</h4>
+      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+      <h4>Belgian Waffle</h4>
+      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+      <h4>Scrambled eggs</h4>
+      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <h4>Blueberry Pancakes</h4>
+      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+
+</div>
+-->
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+    <div class="w3-row">
+        <div class="w3-half">
+            <p>
+                Copyright © Global Direct Link 2018 
+            </p>
+        </div>
+        
+        <div class="w3-half">
+            <p class="">
+                Term & Conditions <br/>
+                Site Map
+            </p>
+        </div>
+    </div>
+<!--  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
+</footer>
+
+<!-- Mobile Nav Button -->
+<script>
+function mobileNavBtn() {
+    var x = document.getElementById("mobile-nav-link");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+    
+    myShow = w3.slideshow(".img-slide", 3000);
+    
+</script>    
+
+    
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5a9cfd5c4b401e45400d6724/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+    
+</body>
+</html>
